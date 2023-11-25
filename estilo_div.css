@@ -1,0 +1,147 @@
+
+/*botones*/
+.select
+	{	
+		
+		width: 220px;
+		height:70px;
+
+        color:#f2f2f2;
+		background-color:#7575a3;
+        border-radius: 20px;
+		
+        font-weight:bold;
+
+        transition: 0.5s;/*se refiere al delay de la animacion de pintado*/
+	    cursor: pointer;/*para hacer que el cursor aparezca la manita señalando*/
+  	    position: relative;
+	
+	}
+.select:hover
+{
+    border-radius: 20px;
+    font-weight:bold;
+	
+    width: 260px;
+	
+    height:90px;
+	background-color:#7575a3;
+
+}
+/*texto*/
+.titulo
+{
+font-size: 80px;
+}
+
+.titulo2
+{
+    font-size: 60px;
+}
+
+.titu
+{
+font-size: 40px;
+}
+
+.titulo3
+{   
+    font-size:35px ;
+}
+
+.titulo4
+{   
+    font-size:25px ;
+}
+
+.blanco_hueso
+{
+        color:  #f2f2f2;
+}
+
+body
+{
+    background-color:#e6e6ff;
+}
+
+/*div*/
+.banner/*estilo de div*/
+{	
+	padding-top: 5px;
+	padding-right: 15px;
+	background-color: #8585ad;
+	height: 130px;
+    width: 95%;
+	border-radius: 15px;/*border al baner*/
+	
+}
+.prin
+{   
+    padding-left: 10%;
+    padding-right: 10%;
+    /*border-style: double;*/
+   
+    height:700px;
+
+    text-align: center;
+}
+
+.izq
+{      
+    float:left;
+   /* background-color: rgba(109, 87, 248, 0.573);*/
+   background-color: #a3a3c2
+   ;
+    width: 33%;
+    height:680px;
+
+    text-align: center;
+}
+.cen
+{
+    float:left;
+    /* background-color: rgba(236, 54, 54, 0.86);*/
+    background-color: #a3a3c2
+    ;
+    width: 34%;
+    height:680px;
+    
+
+    text-align: center;
+}
+
+.der
+{   
+    float: right;
+    /*background-color: rgba(23, 114, 59, 0.597);*/
+    background-color: #a3a3c2;
+    
+    height:680px;
+    width: 33%;
+
+    text-align: center;
+
+}
+
+.cuerpo
+{
+    
+    border-radius: 30px;
+    background-color:#c9c9e9;
+
+    width:890px;
+    
+}
+
+.cuerpo2
+{
+    
+    border-radius: 30px;
+    
+    width:90%;
+    font-size: 20px;
+    text-align: justify;
+    /*border-style: dashed;*/
+    
+}
+
